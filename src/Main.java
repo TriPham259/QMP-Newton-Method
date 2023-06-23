@@ -23,7 +23,6 @@ public class Main {
         System.out.printf("Start: x[0] = %.3f%n", start);
 
         do  {
-
             x = x - f(x) / df(x);  //Newtons method.
             System.out.printf("x[%d] = %.7f%n", count, x);
 
